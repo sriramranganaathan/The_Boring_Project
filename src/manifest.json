@@ -1,0 +1,36 @@
+{
+    "name": "The Boring Project",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "Chrome extension for recording user interaction and generating locators",
+    
+    "permissions": [
+      "storage",
+      "webNavigation",
+      "tabs",
+      "*://*/"
+    ],
+
+    "icons" : {
+      "128": "images/app_icon_128.png"
+    },
+
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "browser_action": {
+      "default_icon": "images/icon-black.png",
+      "default_title": "Record Actions",
+      "default_popup": "index.html"
+    },
+
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": false
+    },
+
+    "options_ui": {
+      "page": "options.html",
+      "open_in_tab": true
+    }
+}

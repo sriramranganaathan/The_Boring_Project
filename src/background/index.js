@@ -55,7 +55,7 @@ class RecordingController{
         chrome.webNavigation.onCompleted.removeListener(this._boundedNavigationHandler)
         chrome.webNavigation.onBeforeNavigate.removeListener(this._boundedWaitHandler)
     
-        chrome.browserAction.setIcon({ path: './images/icon-black.png' })
+        chrome.browserAction.setIcon({ path: './images/monkeyface2.png' })
         chrome.browserAction.setBadgeText({text: this._badgeState})
         chrome.browserAction.setBadgeBackgroundColor({color: '#45C8F1'})
     

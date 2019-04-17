@@ -4,4 +4,4 @@ Record user interactions and trace dom locators that in turn feed the automated 
 Interact with the browser using standard existing protocols with locators based on rules configured.
 Rules are being set up based on the target(locator) actions.
 
-A lil library to make less technical guys automate entire test flow.
+A lil library to make less technical guys automate entire test flow just through the UI layer.

@@ -1,5 +1,5 @@
 # The_Boring_Project
-Record user interactions and trace dom locators to feed the automated test code.
+Record user interactions and trace dom locators that in turn feed the automated test code.
 
 Interact with the browser using standard existing protocols with locators based on rules configured.
 Rules are being set up based on the target(locator) actions.

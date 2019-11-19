@@ -1,4 +1,6 @@
 import actions from '../locator-generator/actions'
+import ctrl from '../models/extension-control-messages'
+import actions from '../models/extension-ui-actions'
 
 class RecordingController{
     constructor(){    
